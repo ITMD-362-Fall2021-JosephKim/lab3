@@ -208,6 +208,10 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+#group1 {
+	border-radius:1em;
+}
+
 h1 {
 	font-size: 2em;
 	line-height:normal;
@@ -276,8 +280,6 @@ input[type="checkbox"] {
   font-size: 1em;
 }
 
-#upper_box {
-	border-radius:1em;
-}
+
 
 /* ===== STATE STYLES ======= */
