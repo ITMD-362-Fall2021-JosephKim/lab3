@@ -208,13 +208,11 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
-#group1 {
-	border-radius:1em;
-}
-
 h1 {
 	font-size: 2em;
 	line-height:normal;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
 	padding:0.5em;
 	text-align:center;
 	background-color: #616161;
@@ -223,6 +221,8 @@ h1 {
 p {
 	font-size: 1.5em;
 	line-height:normal;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
 	padding:0.5em;
 	text-align:center;
 	background-color: #616161;
