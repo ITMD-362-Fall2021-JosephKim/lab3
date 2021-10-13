@@ -283,3 +283,42 @@ input[type="checkbox"] {
 
 
 /* ===== STATE STYLES ======= */
+@media only screen and (max-width: 600px) {
+html {
+  font-size: 1em;
+}
+
+
+h1 {
+	font-size: 1.5em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+}
+
+p {
+	font-size: 1.2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+ol {
+  font-size: 1.4em;
+}
+
+
+#input-age-verification {
+  font-size: 0.7em;
+}
+
+input[type="checkbox"] {
+  width: 0.75em;
+  height: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+#submit {
+  width: 30%;
+  font-size: 0.7em;
+}
+}
