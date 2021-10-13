@@ -196,13 +196,88 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+  background-color: #757575;
+  color: #fafafa;
 }
 
 label {
   display: block;
 }
+	
 
 /* ===== LAYOUT STYLES ====== */
 
+h1 {
+	font-size: 2em;
+	line-height:normal;
+	padding:0.5em;
+	text-align:center;
+	background-color: #616161;
+}
+
+p {
+	font-size: 1.5em;
+	line-height:normal;
+	padding:0.5em;
+	text-align:center;
+	background-color: #616161;
+}
+
+ol {
+  font-size: 1.8em;
+  line-height: 1em;
+  padding:25px;
+  text-align: center;
+  background-color: #616161;
+  margin: 2em;
+}
+
+input {
+  box-sizing: border-box;
+  width: 75%;
+  padding: 10px;
+  border: none;
+  margin: 0.5em;
+}
+
+#input-email input {
+  background-color: #bdbdbd;
+  border: none;
+  line-height: 1.5em;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+#input-age-verification {
+  font-size: 0.8em;
+}
+
+#input-submit{
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+input[type="checkbox"] {
+  width: 0.75em;
+  height: 0.75em;
+  }
+
+#submit {
+  background-color: #424242;
+  color: #fafafa;
+  border-radius:0.5em;
+  border: none;
+  width: 30%;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  font-size: 1em;
+}
+
+#upper_box {
+	border-radius:1em;
+}
 
 /* ===== STATE STYLES ======= */
